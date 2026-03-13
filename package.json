@@ -1,0 +1,12 @@
+{
+  "name": "larafast",
+  "version": "1.0.0",
+  "description": "Laravel project installer CLI",
+  "main": "index.js",
+  "bin": {
+    "larafast": "./bin/larafast.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
