@@ -1,23 +1,27 @@
 export default class CoreEngine {
 
-  constructor() {
-    this.modules = [];
-  }
-
-  register(module) {
-    this.modules.push(module);
+  constructor(pipeline) {
+    this.pipeline = pipeline;
   }
 
   async run() {
 
-    console.log("Starting installation engine...");
+    const steps = this.pipeline.getSteps();
 
-    for (const module of this.modules) {
-      console.log(`Running module: ${module.name}`);
+    const total = steps.length;
+
+    for (let i = 0; i < steps.length; i++) {
+
+      const module = steps[i];
+
+      console.log(`\nStep ${i+1}/${total} - ${module.name}`);
+
       await module.run();
+
     }
 
-    console.log("Installation complete.");
+    console.log("\nProject installation complete.");
+
   }
 
 }
