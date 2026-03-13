@@ -1,6 +1,7 @@
 {
   "name": "larafast",
   "version": "1.0.0",
+  "type": "module",
   "description": "Laravel project installer CLI",
   "main": "index.js",
   "bin": {
@@ -8,5 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^14.0.3"
   }
 }
