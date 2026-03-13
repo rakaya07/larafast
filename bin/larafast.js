@@ -2,6 +2,11 @@
 
 import { Command } from "commander";
 
+import newCommand from "../commands/new.js";
+import doctorCommand from "../commands/doctor.js";
+import installCommand from "../commands/install.js";
+import listCommand from "../commands/list.js";
+
 const program = new Command();
 
 program
@@ -9,36 +14,9 @@ program
   .description("Laravel project installer CLI")
   .version("1.0.0");
 
-program
-  .command("new <project>")
-  .description("create a new laravel project")
-  .action((project) => {
-    console.log(`Creating new project: ${project}`);
-  });
-
-program
-  .command("doctor")
-  .description("check development environment")
-  .action(() => {
-    console.log("Checking environment...");
-  });
-
-program
-  .command("install <module>")
-  .description("install module into laravel project")
-  .action((module) => {
-    console.log(`Installing module: ${module}`);
-  });
-
-program
-  .command("list")
-  .description("list available modules")
-  .action(() => {
-    console.log("Available modules:");
-    console.log("- breeze");
-    console.log("- jetstream");
-    console.log("- tailwind");
-    console.log("- filament");
-  });
+newCommand(program);
+doctorCommand(program);
+installCommand(program);
+listCommand(program);
 
 program.parse();
