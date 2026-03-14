@@ -22,13 +22,13 @@ CLI tool to scaffold Laravel projects instantly with a guided setup wizard.
 Install globally:
 
 ```bash
-npm install -g larafast
+npm install -g @rakaya07/larafast
 ```
 
 Or run directly with npx:
 
 ```bash
-npx larafast new my-project
+npx @rakaya07/larafast new my-project
 ```
 
 ---
