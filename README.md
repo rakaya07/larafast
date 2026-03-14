@@ -6,8 +6,8 @@
 
 CLI tool to scaffold Laravel projects instantly with a guided setup wizard.
 
-[![npm version](https://img.shields.io/npm/v/@rakaya07/larafast?style=flat-square)](https://npmjs.com/package/@rakaya07/larafast)
-[![Downloads](https://img.shields.io/npm/dm/@rakaya07/larafast?style=flat-square)](https://npmjs.com/package/@rakaya07/larafast)
+[![npm version](https://img.shields.io/npm/v/%40rakaya07%2Flarafast?style=flat-square)](https://www.npmjs.com/package/@rakaya07/larafast)
+[![Downloads](https://img.shields.io/npm/dm/%40rakaya07%2Flarafast?style=flat-square)](https://www.npmjs.com/package/@rakaya07/larafast)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)]()
