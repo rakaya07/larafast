@@ -1,5 +1,5 @@
 {
-  "name": "larafast",
+  "name": "@rakaya07/larafast",
   "version": "0.1.0",
   "description": "CLI tool to quickly bootstrap Laravel projects.",
   "type": "commonjs",
