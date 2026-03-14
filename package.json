@@ -6,7 +6,7 @@
   "bin": {
     "larafast": "./bin/larafast.js"
   },
-  "main": "src/commands/new.js",
+  "main": "bin/larafast.js",
   "files": [
     "bin",
     "src",
@@ -18,8 +18,9 @@
   "keywords": [
     "laravel",
     "cli",
-    "commander",
-    "bootstrap"
+    "scaffold",
+    "laravel-cli",
+    "laravel-generator"
   ],
   "license": "MIT",
   "dependencies": {

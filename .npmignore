@@ -1,0 +1,10 @@
+.git
+.gitignore
+.env
+.DS_Store
+node_modules
+npm-debug.log
+dist
+build
+*.test.js
+*.spec.js
