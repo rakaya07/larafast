@@ -1,0 +1,7 @@
+{
+  "name": "voyager",
+  "category": "admin",
+  "supportsLaravel": ["10"],
+  "requires": ["database"],
+  "conflicts": ["filament"]
+}

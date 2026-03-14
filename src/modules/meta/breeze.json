@@ -1,0 +1,7 @@
+{
+  "name": "breeze",
+  "category": "auth",
+  "supportsLaravel": ["10", "11"],
+  "requires": [],
+  "conflicts": ["jetstream"]
+}

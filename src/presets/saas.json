@@ -1,0 +1,8 @@
+{
+  "auth": "Breeze",
+  "frontend": "React",
+  "database": "MySQL",
+  "admin": "Filament",
+  "docker": false,
+  "git": true
+}

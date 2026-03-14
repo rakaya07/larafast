@@ -1,17 +1,32 @@
 {
   "name": "larafast",
-  "version": "1.0.0",
-  "type": "module",
-  "description": "Laravel project installer CLI",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "CLI tool to quickly bootstrap Laravel projects.",
+  "type": "commonjs",
   "bin": {
     "larafast": "./bin/larafast.js"
   },
+  "main": "src/commands/new.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/larafast.js"
   },
+  "keywords": [
+    "laravel",
+    "cli",
+    "commander",
+    "bootstrap"
+  ],
+  "license": "MIT",
   "dependencies": {
-    "commander": "^14.0.3",
-    "inquirer": "^13.3.0"
+    "@inquirer/prompts": "^7.5.1",
+    "commander": "^14.0.0",
+    "mysql2": "^3.19.1",
+    "ora": "^5.4.1",
+    "pg": "^8.20.0"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "auth": "Breeze",
+  "database": "MySQL",
+  "docker": true,
+  "git": true
+}
